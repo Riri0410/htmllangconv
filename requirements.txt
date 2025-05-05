@@ -1,4 +1,3 @@
-tempfile
 shutil
 google
 google-generativeai
