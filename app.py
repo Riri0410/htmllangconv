@@ -28,7 +28,7 @@ Upload either a single HTML file or a ZIP file containing multiple web files.
 # Sidebar with settings
 with st.sidebar:
     st.header("Settings")
-    api_key = st.text_input("Enter your Gemini API Key", type="password")
+    api_key = st.secrets["API_KEY"]
     target_language = st.selectbox(
         "Select Target Language",
         ["Hindi", "Spanish", "French", "German", "Japanese", "Chinese", "Russian", "Arabic", "Portuguese", "Italian"]
