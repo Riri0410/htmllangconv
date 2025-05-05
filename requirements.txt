@@ -1,0 +1,5 @@
+zipfile
+tempfile
+shutil
+google
+google-generativeai
