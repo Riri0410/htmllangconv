@@ -65,7 +65,7 @@ def translate_text_with_genai(text, target_language):
         return text
 
     try:
-        model = genai.GenerativeModel('gemini-2.5-flash-preview-04-17')
+        model = genai.GenerativeModel('gemini-2.0-flash')
 
         # Prompt engineering to ensure proper translation of entire HTML file
         prompt = f"""
